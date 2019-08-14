@@ -1,3 +1,5 @@
+All testclasses written in test package
+
 ---------------------Test cases Automated--------------------------
 
 - Create New product with different price, upc and model (Create->Product())
