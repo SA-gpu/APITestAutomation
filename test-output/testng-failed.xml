@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [API]" parallel="methods">
+  <test thread-count="1" verbose="5" name="GetCalls(failed)" parallel="methods">
+    <classes>
+      <class name="GetCalls.Category">
+        <methods>
+          <include name="NameOnly"/>
+        </methods>
+      </class> <!-- GetCalls.Category -->
+    </classes>
+  </test> <!-- GetCalls(failed) -->
+</suite> <!-- Failed suite [API] -->

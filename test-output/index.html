@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-API">
+              <span class="suite-name border-passed">API</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-API">
+                    <span>F:\Projectss\Test Automation API\Testing.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-API">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-API">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-API">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-API">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-API">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-API">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API" class="hide-methods passed suite-API"> (hide)</a> <!-- hide-methods passed suite-API -->
+                      <a href="#" panel-name="suite-API" class="show-methods passed suite-API"> (show)</a> <!-- show-methods passed suite-API -->
+                    </span>
+                    <div class="method-list-content passed suite-API">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="Create.NewEntry" hash-for-method="Category">Category</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="GetCalls.Product" hash-for-method="FreeShippingPricebetween">FreeShippingPricebetween</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="GetCalls.Category" hash-for-method="Like">Like</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="GetCalls.Product" hash-for-method="NameDesc">NameDesc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="GetCalls.Category" hash-for-method="NameOnly">NameOnly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="GetCalls.Store" hash-for-method="NearServiceStore">NearServiceStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="GetCalls.Product" hash-for-method="PriceSort">PriceSort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="Create.NewEntry" hash-for-method="Product">Product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="Create.NewEntry" hash-for-method="Service">Service</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="GetCalls.Store" hash-for-method="ServiceName">ServiceName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="Create.NewEntry" hash-for-method="Store">Store</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API" title="GetCalls.Store" hash-for-method="StoreinState">StoreinState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-API" class="panel API">
+          <div class="suite-API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetCalls.Store</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NearServiceStore">
+                  </a> <!-- NearServiceStore -->
+                  <span class="method-name">NearServiceStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ServiceName">
+                  </a> <!-- ServiceName -->
+                  <span class="method-name">ServiceName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StoreinState">
+                  </a> <!-- StoreinState -->
+                  <span class="method-name">StoreinState</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API-class-passed -->
+          <div class="suite-API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetCalls.Product</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FreeShippingPricebetween">
+                  </a> <!-- FreeShippingPricebetween -->
+                  <span class="method-name">FreeShippingPricebetween</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NameDesc">
+                  </a> <!-- NameDesc -->
+                  <span class="method-name">NameDesc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PriceSort">
+                  </a> <!-- PriceSort -->
+                  <span class="method-name">PriceSort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API-class-passed -->
+          <div class="suite-API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Create.NewEntry</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Category">
+                  </a> <!-- Category -->
+                  <span class="method-name">Category</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Product">
+                  </a> <!-- Product -->
+                  <span class="method-name">Product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Service">
+                  </a> <!-- Service -->
+                  <span class="method-name">Service</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Store">
+                  </a> <!-- Store -->
+                  <span class="method-name">Store</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API-class-passed -->
+          <div class="suite-API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetCalls.Category</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Like">
+                  </a> <!-- Like -->
+                  <span class="method-name">Like</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NameOnly">
+                  </a> <!-- NameOnly -->
+                  <span class="method-name">NameOnly</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API-class-passed -->
+        </div> <!-- panel API -->
+        <div panel-name="test-xml-API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Projectss\Test Automation API\Testing.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;5&quot; name=&quot;API&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;5&quot; name=&quot;Create&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Create.NewEntry&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Product&quot;/&gt;
+          &lt;include name=&quot;Category&quot;/&gt;
+          &lt;include name=&quot;Service&quot;/&gt;
+          &lt;include name=&quot;Store&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Create.NewEntry --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;5&quot; name=&quot;GetCalls&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;GetCalls.Product&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;PriceSort&quot;/&gt;
+          &lt;include name=&quot;NameDesc&quot;/&gt;
+          &lt;include name=&quot;FreeShippingPricebetween&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- GetCalls.Product --&gt;
+      &lt;class name=&quot;GetCalls.Category&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Like&quot;/&gt;
+          &lt;include name=&quot;NameOnly&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- GetCalls.Category --&gt;
+      &lt;class name=&quot;GetCalls.Store&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;StoreinState&quot;/&gt;
+          &lt;include name=&quot;ServiceName&quot;/&gt;
+          &lt;include name=&quot;NearServiceStore&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- GetCalls.Store --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GetCalls --&gt;
+&lt;/suite&gt; &lt;!-- API --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">GetCalls (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API');
+function tableData_API() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Product')
+data.setCell(0, 2, 'Create.NewEntry')
+data.setCell(0, 3, 1693);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'PriceSort')
+data.setCell(1, 2, 'GetCalls.Product')
+data.setCell(1, 3, 688);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FreeShippingPricebetween')
+data.setCell(2, 2, 'GetCalls.Product')
+data.setCell(2, 3, 546);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Category')
+data.setCell(3, 2, 'Create.NewEntry')
+data.setCell(3, 3, 198);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Store')
+data.setCell(4, 2, 'Create.NewEntry')
+data.setCell(4, 3, 150);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'NameDesc')
+data.setCell(5, 2, 'GetCalls.Product')
+data.setCell(5, 3, 124);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Service')
+data.setCell(6, 2, 'Create.NewEntry')
+data.setCell(6, 3, 107);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ServiceName')
+data.setCell(7, 2, 'GetCalls.Store')
+data.setCell(7, 3, 64);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'StoreinState')
+data.setCell(8, 2, 'GetCalls.Store')
+data.setCell(8, 3, 56);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Like')
+data.setCell(9, 2, 'GetCalls.Category')
+data.setCell(9, 3, 52);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'NearServiceStore')
+data.setCell(10, 2, 'GetCalls.Store')
+data.setCell(10, 3, 28);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'NameOnly')
+data.setCell(11, 2, 'GetCalls.Category')
+data.setCell(11, 3, 18);
+window.suiteTableData['API']= { tableData: data, tableDiv: 'times-div-API'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-API">
+              </div> <!-- times-div-API -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Category</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Create New Category Request</span>
+                <span class="reporter-method-output">Create New Category Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Product</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Create New Product Request</span>
+                <span class="reporter-method-output">Create New Product Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Store</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Create New Store Request</span>
+                <span class="reporter-method-output">Create New Store Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Service</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Create New Service Request</span>
+                <span class="reporter-method-output">Create New Service Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ServiceName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Name & Desc get Request send</span>
+                <span class="reporter-method-output">Name & Desc get Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Like</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Product get Request send</span>
+                <span class="reporter-method-output">Product get Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NearServiceStore</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Name & Desc get Request send</span>
+                <span class="reporter-method-output">Name & Desc get Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">StoreinState</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Product get Request send</span>
+                <span class="reporter-method-output">Product get Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NameOnly</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Name & Desc get Request send</span>
+                <span class="reporter-method-output">Name & Desc get Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FreeShippingPricebetween</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Name & Desc get Request send</span>
+                <span class="reporter-method-output">Name & Desc get Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NameDesc</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Name & Desc get Request send</span>
+                <span class="reporter-method-output">Name & Desc get Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">PriceSort</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Product get Request send</span>
+                <span class="reporter-method-output">Product get Response</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Create.NewEntry</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Product</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Category</span>
+                <span class="method-start">1697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Service</span>
+                <span class="method-start">1896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Store</span>
+                <span class="method-start">2006 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetCalls.Product</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">PriceSort</span>
+                <span class="method-start">2317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NameDesc</span>
+                <span class="method-start">3007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FreeShippingPricebetween</span>
+                <span class="method-start">3132 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetCalls.Category</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Like</span>
+                <span class="method-start">3679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NameOnly</span>
+                <span class="method-start">3732 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetCalls.Store</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">StoreinState</span>
+                <span class="method-start">3751 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ServiceName</span>
+                <span class="method-start">3809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NearServiceStore</span>
+                <span class="method-start">3875 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

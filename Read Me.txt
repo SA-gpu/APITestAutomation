@@ -1,0 +1,16 @@
+---------------------Test cases Automated--------------------------
+
+- Create New product with different price, upc and model (Create->Product())
+- Create New Category with different id (Create->Category())
+- Create New Service with different name (Create->Service())
+- Create New Store with different address, state, zip (Create->Store())
+
+
+- Get Category with query of like operator (Category->Like())
+- Get Category with query of select operator (Category->NameOnly()) This query isn't give proper data give internal error.
+- Get Product with query of sort operator (Product->PriceSort())
+- Get product with query of select operator (Product->NameDesc())
+- Get product with query of min and max price with shipping(Product->FreeShippingPricebetween())
+- Get Store with query of state name (Store->StoreinState())
+- Get Store with query of service.name=Apple shop (Store->ServiceName())
+- Get Store with query of near id and service.name (Store->NearServiceStore())

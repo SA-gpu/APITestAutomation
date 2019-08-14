@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" thread-count="1" verbose="5" guice-stage="DEVELOPMENT" name="API">
+  
+  
+  <test name="Create">
+    <classes>
+       <class name="Create.NewEntry"> 
+       		<methods>
+				<include name= "Product"/>
+				<include name= "Category"/>  
+				<include name= "Service"/> 
+				<include name= "Store"/>     		
+       		</methods>
+       	</class>
+    </classes>
+ </test>
+ 
+ <test name="GetCalls">
+    <classes>
+       <class name="GetCalls.Product"> 
+       		<methods>
+				<include name= "PriceSort"/>
+				<include name= "NameDesc"/>
+				<include name= "FreeShippingPricebetween"/>
+				    		
+       		</methods>
+       	</class>
+       	<class name="GetCalls.Category"> 
+       		<methods>
+				<include name= "Like"/>
+				<include name= "NameOnly"/>    		
+       		</methods>
+       	</class>
+       	<class name="GetCalls.Store"> 
+       		<methods>
+				<include name= "StoreinState"/>
+				<include name= "ServiceName"/> 
+				<include name= "NearServiceStore"/>    		
+       		</methods>
+       	</class>
+    </classes>
+ </test>
+  
+  
+	
+
+</suite> 

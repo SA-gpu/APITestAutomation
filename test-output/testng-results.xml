@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[Create New Product Request]]>
+    </line>
+    <line>
+      <![CDATA[Create New Product Response]]>
+    </line>
+    <line>
+      <![CDATA[Create New Category Request]]>
+    </line>
+    <line>
+      <![CDATA[Create New Category Response]]>
+    </line>
+    <line>
+      <![CDATA[Create New Service Request]]>
+    </line>
+    <line>
+      <![CDATA[Create New Service Response]]>
+    </line>
+    <line>
+      <![CDATA[Create New Store Request]]>
+    </line>
+    <line>
+      <![CDATA[Create New Store Response]]>
+    </line>
+    <line>
+      <![CDATA[Product get Request send]]>
+    </line>
+    <line>
+      <![CDATA[Product get Response]]>
+    </line>
+    <line>
+      <![CDATA[Name & Desc get Request send]]>
+    </line>
+    <line>
+      <![CDATA[Name & Desc get Response]]>
+    </line>
+    <line>
+      <![CDATA[Name & Desc get Request send]]>
+    </line>
+    <line>
+      <![CDATA[Name & Desc get Response]]>
+    </line>
+    <line>
+      <![CDATA[Product get Request send]]>
+    </line>
+    <line>
+      <![CDATA[Product get Response]]>
+    </line>
+    <line>
+      <![CDATA[Name & Desc get Request send]]>
+    </line>
+    <line>
+      <![CDATA[Name & Desc get Response]]>
+    </line>
+    <line>
+      <![CDATA[Product get Request send]]>
+    </line>
+    <line>
+      <![CDATA[Product get Response]]>
+    </line>
+    <line>
+      <![CDATA[Name & Desc get Request send]]>
+    </line>
+    <line>
+      <![CDATA[Name & Desc get Response]]>
+    </line>
+    <line>
+      <![CDATA[Name & Desc get Request send]]>
+    </line>
+    <line>
+      <![CDATA[Name & Desc get Response]]>
+    </line>
+  </reporter-output>
+  <suite name="API" duration-ms="3938" started-at="2019-08-14T06:00:34Z" finished-at="2019-08-14T06:00:38Z">
+    <groups>
+    </groups>
+    <test name="Create" duration-ms="2194" started-at="2019-08-14T06:00:34Z" finished-at="2019-08-14T06:00:37Z">
+      <class name="Create.NewEntry">
+        <test-method status="PASS" signature="Product()[pri:0, instance:Create.NewEntry@204f30ec]" name="Product" duration-ms="1693" started-at="2019-08-14T06:00:34Z" finished-at="2019-08-14T06:00:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create New Product Request]]>
+            </line>
+            <line>
+              <![CDATA[Create New Product Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Product -->
+        <test-method status="PASS" signature="Category()[pri:0, instance:Create.NewEntry@204f30ec]" name="Category" duration-ms="198" started-at="2019-08-14T06:00:36Z" finished-at="2019-08-14T06:00:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create New Category Request]]>
+            </line>
+            <line>
+              <![CDATA[Create New Category Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Category -->
+        <test-method status="PASS" signature="Service()[pri:0, instance:Create.NewEntry@204f30ec]" name="Service" duration-ms="107" started-at="2019-08-14T06:00:36Z" finished-at="2019-08-14T06:00:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create New Service Request]]>
+            </line>
+            <line>
+              <![CDATA[Create New Service Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Service -->
+        <test-method status="PASS" signature="Store()[pri:0, instance:Create.NewEntry@204f30ec]" name="Store" duration-ms="150" started-at="2019-08-14T06:00:36Z" finished-at="2019-08-14T06:00:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create New Store Request]]>
+            </line>
+            <line>
+              <![CDATA[Create New Store Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Store -->
+      </class> <!-- Create.NewEntry -->
+    </test> <!-- Create -->
+    <test name="GetCalls" duration-ms="1595" started-at="2019-08-14T06:00:37Z" finished-at="2019-08-14T06:00:38Z">
+      <class name="GetCalls.Product">
+        <test-method status="PASS" signature="PriceSort()[pri:0, instance:GetCalls.Product@13805618]" name="PriceSort" duration-ms="688" started-at="2019-08-14T06:00:37Z" finished-at="2019-08-14T06:00:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Product get Request send]]>
+            </line>
+            <line>
+              <![CDATA[Product get Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PriceSort -->
+        <test-method status="PASS" signature="NameDesc()[pri:0, instance:GetCalls.Product@13805618]" name="NameDesc" duration-ms="124" started-at="2019-08-14T06:00:37Z" finished-at="2019-08-14T06:00:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Name & Desc get Request send]]>
+            </line>
+            <line>
+              <![CDATA[Name & Desc get Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NameDesc -->
+        <test-method status="PASS" signature="FreeShippingPricebetween()[pri:0, instance:GetCalls.Product@13805618]" name="FreeShippingPricebetween" duration-ms="546" started-at="2019-08-14T06:00:38Z" finished-at="2019-08-14T06:00:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Name & Desc get Request send]]>
+            </line>
+            <line>
+              <![CDATA[Name & Desc get Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FreeShippingPricebetween -->
+      </class> <!-- GetCalls.Product -->
+      <class name="GetCalls.Store">
+        <test-method status="PASS" signature="StoreinState()[pri:0, instance:GetCalls.Store@4566e5bd]" name="StoreinState" duration-ms="56" started-at="2019-08-14T06:00:38Z" finished-at="2019-08-14T06:00:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Product get Request send]]>
+            </line>
+            <line>
+              <![CDATA[Product get Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StoreinState -->
+        <test-method status="PASS" signature="ServiceName()[pri:0, instance:GetCalls.Store@4566e5bd]" name="ServiceName" duration-ms="64" started-at="2019-08-14T06:00:38Z" finished-at="2019-08-14T06:00:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Name & Desc get Request send]]>
+            </line>
+            <line>
+              <![CDATA[Name & Desc get Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ServiceName -->
+        <test-method status="PASS" signature="NearServiceStore()[pri:0, instance:GetCalls.Store@4566e5bd]" name="NearServiceStore" duration-ms="28" started-at="2019-08-14T06:00:38Z" finished-at="2019-08-14T06:00:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Name & Desc get Request send]]>
+            </line>
+            <line>
+              <![CDATA[Name & Desc get Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NearServiceStore -->
+      </class> <!-- GetCalls.Store -->
+      <class name="GetCalls.Category">
+        <test-method status="PASS" signature="Like()[pri:0, instance:GetCalls.Category@56ef9176]" name="Like" duration-ms="52" started-at="2019-08-14T06:00:38Z" finished-at="2019-08-14T06:00:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Product get Request send]]>
+            </line>
+            <line>
+              <![CDATA[Product get Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Like -->
+        <test-method status="PASS" signature="NameOnly()[pri:0, instance:GetCalls.Category@56ef9176]" name="NameOnly" duration-ms="18" started-at="2019-08-14T06:00:38Z" finished-at="2019-08-14T06:00:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Name & Desc get Request send]]>
+            </line>
+            <line>
+              <![CDATA[Name & Desc get Response]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NameOnly -->
+      </class> <!-- GetCalls.Category -->
+    </test> <!-- GetCalls -->
+  </suite> <!-- API -->
+</testng-results>
